@@ -63,7 +63,7 @@ footer {
   padding: 0.5rem;
 }
 
-.nav-logo {
+.logo {
   min-width: 160px;
   background-image: url(/img/logo.svg);
 }
@@ -195,7 +195,22 @@ footer hr {
 
 .footer-logo,
 .footer-btn {
-  border: 1px dashed black;
+  
   padding: 0.5rem;
-  background-color: #FFB6C1;
+  
+}
+
+.footer-logo {
+  background-image: url(/img/logo.svg);
+}
+
+.col ul {
+  list-style: none;
+  text-align: left;
+  padding: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
 }
