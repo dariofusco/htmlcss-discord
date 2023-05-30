@@ -94,9 +94,33 @@ footer {
   padding: 7px;
 }
 
+.button-black {
+  text-align: center;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 7px;
+} 
+
+.button-violet {
+  text-align: center;
+  border-radius: 15px;
+  background-color: hsl(223, 55%, 60%);
+  color: white;
+  display: inline-block;
+  padding: 7px;
+}
+
+.stars{
+  background-image: url(/img/stars.svg);
+  background-size: cover;
+  font-size: 16px;
+}
 .hero-section {
   background-color: #00008b;
   padding: 2rem 0;
+  color: white;
 }
 
 .hero-section .container {
@@ -111,24 +135,37 @@ footer {
 
 .col-large,
 .col-small {
-  border: 1px dashed black;
+  border: 1px dashed black; 
+}
+
+.col-large1 {
+  width: 75%;
+  background-image: url(/img/item1.svg);
+  background-size: cover;
   min-height: 300px;
 }
 
-.col-large {
-  width: 60%;
-  background-color: #1e90ff;
+.col-large2 {
+  width: 75%;
+  background-image: url(/img/item2.svg);
+  background-size: cover;
+  min-height: 300px;
+}
+
+.col-large3 {
+  width: 75%;
+  background-image: url(/img/item3.svg);
+  background-size: cover;
+  min-height: 300px;
 }
 
 .col-small {
-  width: 40%;
-  background-color: #ffc0cb;
+  width: 25%;
 }
 
 .box-green {
   border: 1px dashed black;
   min-height: 500px;
-  background-color: #228b22;
 }
 
 footer .col {
