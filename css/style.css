@@ -204,3 +204,16 @@ footer hr {
   color: hsl(223, 55%, 60%);
 }
 
+.flag {
+  height: 15px;
+}
+
+.col p {
+  color: white;
+  padding: 10px;
+}
+
+.col {
+  padding: 20px;
+  text-align: left;
+}
