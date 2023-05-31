@@ -7,7 +7,6 @@
 html,
 body {
   font-family: Arial, Helvetica, sans-serif;
-  /* font-size: 20px; */
 }
 
 h1 {
@@ -19,10 +18,9 @@ p {
 }
 
 header {
-  background-color: #add8e6;
   padding-top: 1rem;
   padding-bottom: 4px;
-  background-image: url(/img/jumbo.png);
+  background-image: url(../img/jumbo.png);
 }
 
 header nav {
@@ -50,8 +48,10 @@ footer {
 }
 
 .bg-jumbo {
-  background-image: url(/img/jumbo.png);
-  background-size: cover;
+  background-image: url(../img/jumbo.png);
+  background-size: auto 435px; ;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .bg-grey {
@@ -66,7 +66,7 @@ footer {
 
 .logo {
   min-width: 160px;
-  background-image: url(/img/logo.svg);
+  background-image: url(../img/logo.svg);
 }
 
 .nav-links {
@@ -114,13 +114,12 @@ footer {
 }
 
 .stars{
-  background-image: url(/img/stars.svg);
+  background-image: url(../img/stars.svg);
   background-size: cover;
   font-size: 16px;
 }
 
 .hero-section {
-  background-color: #00008b;
   padding: 2rem 0;
   color: white;
 }
@@ -136,22 +135,27 @@ footer {
 
 .col-large1 {
   width: 75%;
-  background-image: url(/img/item1.svg);
-  background-size: cover;
+  background-image: url(../img/item1.svg);
+  background-size: auto 296px;
+  background-repeat: no-repeat;
   min-height: 300px;
 }
 
 .col-large2 {
   width: 75%;
-  background-image: url(/img/item2.svg);
-  background-size: cover;
+  background-image: url(../img/item2.svg);
+  background-size: auto 296px;
+  background-repeat: no-repeat;
+  background-position: center;
   min-height: 300px;
 }
 
 .col-large3 {
   width: 75%;
-  background-image: url(/img/item3.svg);
-  background-size: cover;
+  background-image: url(../img/item3.svg);
+  background-size: auto 296px;
+  background-repeat: no-repeat;
+  background-position: center;
   min-height: 300px;
 }
 
